@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CBA2AA62F149F44FE4CDC60 /* Pods_UberCloniOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E71B10DB4DF082397B2942 /* Pods_UberCloniOSTests.framework */; };
+		A9119F929BF5ACCEA1D16C00 /* Pods_UberCloniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14EA727AF734C6447F60702 /* Pods_UberCloniOS.framework */; };
+		B43781E8263C114300C1CDC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43781E7263C114300C1CDC1 /* AppDelegate.swift */; };
+		B43781EA263C114300C1CDC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43781E9263C114300C1CDC1 /* SceneDelegate.swift */; };
+		B43781EC263C114300C1CDC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43781EB263C114300C1CDC1 /* ViewController.swift */; };
+		B43781EF263C114300C1CDC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43781ED263C114300C1CDC1 /* Main.storyboard */; };
+		B43781F2263C114300C1CDC1 /* UberCloniOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B43781F0263C114300C1CDC1 /* UberCloniOS.xcdatamodeld */; };
+		B43781F4263C114600C1CDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43781F3263C114600C1CDC1 /* Assets.xcassets */; };
+		B43781F7263C114600C1CDC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43781F5263C114600C1CDC1 /* LaunchScreen.storyboard */; };
+		B4378202263C114600C1CDC1 /* UberCloniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4378201263C114600C1CDC1 /* UberCloniOSTests.swift */; };
+		B437820D263C114600C1CDC1 /* UberCloniOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B437820C263C114600C1CDC1 /* UberCloniOSUITests.swift */; };
+		B437821E263C1DB200C1CDC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B437821D263C1DB200C1CDC1 /* GoogleService-Info.plist */; };
+		DD1C3785871B5275967DD8F9 /* Pods_UberCloniOS_UberCloniOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3FE5E7BECF96CD2099ABC2 /* Pods_UberCloniOS_UberCloniOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43781FE263C114600C1CDC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43781DC263C114300C1CDC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43781E3263C114300C1CDC1;
+			remoteInfo = UberCloniOS;
+		};
+		B4378209263C114600C1CDC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43781DC263C114300C1CDC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43781E3263C114300C1CDC1;
+			remoteInfo = UberCloniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3F1BD8B858F15EF20046EA /* Pods-UberCloniOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCloniOSTests.release.xcconfig"; path = "Target Support Files/Pods-UberCloniOSTests/Pods-UberCloniOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		22B90C3F3D29A3AFC69BC3B7 /* Pods-UberCloniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCloniOS.release.xcconfig"; path = "Target Support Files/Pods-UberCloniOS/Pods-UberCloniOS.release.xcconfig"; sourceTree = "<group>"; };
+		30D2369F4BCD46A0C4551EC5 /* Pods-UberCloniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCloniOS.debug.xcconfig"; path = "Target Support Files/Pods-UberCloniOS/Pods-UberCloniOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5DBE652D0BEEA42A8CFDE429 /* Pods-UberCloniOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCloniOSTests.debug.xcconfig"; path = "Target Support Files/Pods-UberCloniOSTests/Pods-UberCloniOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62E71B10DB4DF082397B2942 /* Pods_UberCloniOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberCloniOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3FE5E7BECF96CD2099ABC2 /* Pods_UberCloniOS_UberCloniOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberCloniOS_UberCloniOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E63ABD469087EB7F04CABA /* Pods-UberCloniOS-UberCloniOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCloniOS-UberCloniOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-UberCloniOS-UberCloniOSUITests/Pods-UberCloniOS-UberCloniOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B43781E4263C114300C1CDC1 /* UberCloniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberCloniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43781E7263C114300C1CDC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43781E9263C114300C1CDC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B43781EB263C114300C1CDC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43781EE263C114300C1CDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43781F1263C114300C1CDC1 /* UberCloniOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UberCloniOS.xcdatamodel; sourceTree = "<group>"; };
+		B43781F3263C114600C1CDC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43781F6263C114600C1CDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B43781F8263C114600C1CDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43781FD263C114600C1CDC1 /* UberCloniOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberCloniOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4378201263C114600C1CDC1 /* UberCloniOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCloniOSTests.swift; sourceTree = "<group>"; };
+		B4378203263C114600C1CDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4378208263C114600C1CDC1 /* UberCloniOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberCloniOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B437820C263C114600C1CDC1 /* UberCloniOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCloniOSUITests.swift; sourceTree = "<group>"; };
+		B437820E263C114600C1CDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B437821D263C1DB200C1CDC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C14EA727AF734C6447F60702 /* Pods_UberCloniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberCloniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE510CB20422DB932226171 /* Pods-UberCloniOS-UberCloniOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCloniOS-UberCloniOSUITests.release.xcconfig"; path = "Target Support Files/Pods-UberCloniOS-UberCloniOSUITests/Pods-UberCloniOS-UberCloniOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43781E1263C114300C1CDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9119F929BF5ACCEA1D16C00 /* Pods_UberCloniOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43781FA263C114600C1CDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBA2AA62F149F44FE4CDC60 /* Pods_UberCloniOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4378205263C114600C1CDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C3785871B5275967DD8F9 /* Pods_UberCloniOS_UberCloniOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2198E5B75C385D25551B35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14EA727AF734C6447F60702 /* Pods_UberCloniOS.framework */,
+				7F3FE5E7BECF96CD2099ABC2 /* Pods_UberCloniOS_UberCloniOSUITests.framework */,
+				62E71B10DB4DF082397B2942 /* Pods_UberCloniOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75CC4C98FDA2506874CD8515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30D2369F4BCD46A0C4551EC5 /* Pods-UberCloniOS.debug.xcconfig */,
+				22B90C3F3D29A3AFC69BC3B7 /* Pods-UberCloniOS.release.xcconfig */,
+				A9E63ABD469087EB7F04CABA /* Pods-UberCloniOS-UberCloniOSUITests.debug.xcconfig */,
+				FEE510CB20422DB932226171 /* Pods-UberCloniOS-UberCloniOSUITests.release.xcconfig */,
+				5DBE652D0BEEA42A8CFDE429 /* Pods-UberCloniOSTests.debug.xcconfig */,
+				0F3F1BD8B858F15EF20046EA /* Pods-UberCloniOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B43781DB263C114300C1CDC1 = {
+			isa = PBXGroup;
+			children = (
+				B43781E6263C114300C1CDC1 /* UberCloniOS */,
+				B4378200263C114600C1CDC1 /* UberCloniOSTests */,
+				B437820B263C114600C1CDC1 /* UberCloniOSUITests */,
+				B43781E5263C114300C1CDC1 /* Products */,
+				75CC4C98FDA2506874CD8515 /* Pods */,
+				1A2198E5B75C385D25551B35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B43781E5263C114300C1CDC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43781E4263C114300C1CDC1 /* UberCloniOS.app */,
+				B43781FD263C114600C1CDC1 /* UberCloniOSTests.xctest */,
+				B4378208263C114600C1CDC1 /* UberCloniOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43781E6263C114300C1CDC1 /* UberCloniOS */ = {
+			isa = PBXGroup;
+			children = (
+				B43781E7263C114300C1CDC1 /* AppDelegate.swift */,
+				B43781E9263C114300C1CDC1 /* SceneDelegate.swift */,
+				B43781EB263C114300C1CDC1 /* ViewController.swift */,
+				B43781ED263C114300C1CDC1 /* Main.storyboard */,
+				B43781F3263C114600C1CDC1 /* Assets.xcassets */,
+				B43781F5263C114600C1CDC1 /* LaunchScreen.storyboard */,
+				B43781F8263C114600C1CDC1 /* Info.plist */,
+				B437821D263C1DB200C1CDC1 /* GoogleService-Info.plist */,
+				B43781F0263C114300C1CDC1 /* UberCloniOS.xcdatamodeld */,
+			);
+			path = UberCloniOS;
+			sourceTree = "<group>";
+		};
+		B4378200263C114600C1CDC1 /* UberCloniOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4378201263C114600C1CDC1 /* UberCloniOSTests.swift */,
+				B4378203263C114600C1CDC1 /* Info.plist */,
+			);
+			path = UberCloniOSTests;
+			sourceTree = "<group>";
+		};
+		B437820B263C114600C1CDC1 /* UberCloniOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B437820C263C114600C1CDC1 /* UberCloniOSUITests.swift */,
+				B437820E263C114600C1CDC1 /* Info.plist */,
+			);
+			path = UberCloniOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43781E3263C114300C1CDC1 /* UberCloniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4378211263C114600C1CDC1 /* Build configuration list for PBXNativeTarget "UberCloniOS" */;
+			buildPhases = (
+				18AF7D9CEBD98FA1B755977D /* [CP] Check Pods Manifest.lock */,
+				B43781E0263C114300C1CDC1 /* Sources */,
+				B43781E1263C114300C1CDC1 /* Frameworks */,
+				B43781E2263C114300C1CDC1 /* Resources */,
+				4BE9C8DA62DB2E2B067788F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberCloniOS;
+			productName = UberCloniOS;
+			productReference = B43781E4263C114300C1CDC1 /* UberCloniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43781FC263C114600C1CDC1 /* UberCloniOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4378214263C114600C1CDC1 /* Build configuration list for PBXNativeTarget "UberCloniOSTests" */;
+			buildPhases = (
+				C1DDB30BFE4B1893C2CC5D7E /* [CP] Check Pods Manifest.lock */,
+				B43781F9263C114600C1CDC1 /* Sources */,
+				B43781FA263C114600C1CDC1 /* Frameworks */,
+				B43781FB263C114600C1CDC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43781FF263C114600C1CDC1 /* PBXTargetDependency */,
+			);
+			name = UberCloniOSTests;
+			productName = UberCloniOSTests;
+			productReference = B43781FD263C114600C1CDC1 /* UberCloniOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4378207263C114600C1CDC1 /* UberCloniOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4378217263C114600C1CDC1 /* Build configuration list for PBXNativeTarget "UberCloniOSUITests" */;
+			buildPhases = (
+				EA49D2E0F613D078584C0E82 /* [CP] Check Pods Manifest.lock */,
+				B4378204263C114600C1CDC1 /* Sources */,
+				B4378205263C114600C1CDC1 /* Frameworks */,
+				B4378206263C114600C1CDC1 /* Resources */,
+				97BF35FAA27D77287D266606 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B437820A263C114600C1CDC1 /* PBXTargetDependency */,
+			);
+			name = UberCloniOSUITests;
+			productName = UberCloniOSUITests;
+			productReference = B4378208263C114600C1CDC1 /* UberCloniOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43781DC263C114300C1CDC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B43781E3263C114300C1CDC1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B43781FC263C114600C1CDC1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B43781E3263C114300C1CDC1;
+					};
+					B4378207263C114600C1CDC1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B43781E3263C114300C1CDC1;
+					};
+				};
+			};
+			buildConfigurationList = B43781DF263C114300C1CDC1 /* Build configuration list for PBXProject "UberCloniOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B43781DB263C114300C1CDC1;
+			productRefGroup = B43781E5263C114300C1CDC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43781E3263C114300C1CDC1 /* UberCloniOS */,
+				B43781FC263C114600C1CDC1 /* UberCloniOSTests */,
+				B4378207263C114600C1CDC1 /* UberCloniOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43781E2263C114300C1CDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43781F7263C114600C1CDC1 /* LaunchScreen.storyboard in Resources */,
+				B437821E263C1DB200C1CDC1 /* GoogleService-Info.plist in Resources */,
+				B43781F4263C114600C1CDC1 /* Assets.xcassets in Resources */,
+				B43781EF263C114300C1CDC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43781FB263C114600C1CDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4378206263C114600C1CDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18AF7D9CEBD98FA1B755977D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberCloniOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BE9C8DA62DB2E2B067788F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberCloniOS/Pods-UberCloniOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberCloniOS/Pods-UberCloniOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UberCloniOS/Pods-UberCloniOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97BF35FAA27D77287D266606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberCloniOS-UberCloniOSUITests/Pods-UberCloniOS-UberCloniOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberCloniOS-UberCloniOSUITests/Pods-UberCloniOS-UberCloniOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UberCloniOS-UberCloniOSUITests/Pods-UberCloniOS-UberCloniOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1DDB30BFE4B1893C2CC5D7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberCloniOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA49D2E0F613D078584C0E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberCloniOS-UberCloniOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43781E0263C114300C1CDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43781EC263C114300C1CDC1 /* ViewController.swift in Sources */,
+				B43781F2263C114300C1CDC1 /* UberCloniOS.xcdatamodeld in Sources */,
+				B43781E8263C114300C1CDC1 /* AppDelegate.swift in Sources */,
+				B43781EA263C114300C1CDC1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43781F9263C114600C1CDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4378202263C114600C1CDC1 /* UberCloniOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4378204263C114600C1CDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B437820D263C114600C1CDC1 /* UberCloniOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43781FF263C114600C1CDC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43781E3263C114300C1CDC1 /* UberCloniOS */;
+			targetProxy = B43781FE263C114600C1CDC1 /* PBXContainerItemProxy */;
+		};
+		B437820A263C114600C1CDC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43781E3263C114300C1CDC1 /* UberCloniOS */;
+			targetProxy = B4378209263C114600C1CDC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43781ED263C114300C1CDC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43781EE263C114300C1CDC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43781F5263C114600C1CDC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43781F6263C114600C1CDC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B437820F263C114600C1CDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4378210263C114600C1CDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4378212263C114600C1CDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D2369F4BCD46A0C4551EC5 /* Pods-UberCloniOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2G3QF66D7;
+				INFOPLIST_FILE = UberCloniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.promise.UberCloniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4378213263C114600C1CDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B90C3F3D29A3AFC69BC3B7 /* Pods-UberCloniOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2G3QF66D7;
+				INFOPLIST_FILE = UberCloniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.promise.UberCloniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4378215263C114600C1CDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBE652D0BEEA42A8CFDE429 /* Pods-UberCloniOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2G3QF66D7;
+				INFOPLIST_FILE = UberCloniOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.promise.UberCloniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberCloniOS.app/UberCloniOS";
+			};
+			name = Debug;
+		};
+		B4378216263C114600C1CDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3F1BD8B858F15EF20046EA /* Pods-UberCloniOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2G3QF66D7;
+				INFOPLIST_FILE = UberCloniOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.promise.UberCloniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberCloniOS.app/UberCloniOS";
+			};
+			name = Release;
+		};
+		B4378218263C114600C1CDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E63ABD469087EB7F04CABA /* Pods-UberCloniOS-UberCloniOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2G3QF66D7;
+				INFOPLIST_FILE = UberCloniOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.promise.UberCloniOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UberCloniOS;
+			};
+			name = Debug;
+		};
+		B4378219263C114600C1CDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE510CB20422DB932226171 /* Pods-UberCloniOS-UberCloniOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2G3QF66D7;
+				INFOPLIST_FILE = UberCloniOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.promise.UberCloniOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UberCloniOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43781DF263C114300C1CDC1 /* Build configuration list for PBXProject "UberCloniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B437820F263C114600C1CDC1 /* Debug */,
+				B4378210263C114600C1CDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4378211263C114600C1CDC1 /* Build configuration list for PBXNativeTarget "UberCloniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4378212263C114600C1CDC1 /* Debug */,
+				B4378213263C114600C1CDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4378214263C114600C1CDC1 /* Build configuration list for PBXNativeTarget "UberCloniOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4378215263C114600C1CDC1 /* Debug */,
+				B4378216263C114600C1CDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4378217263C114600C1CDC1 /* Build configuration list for PBXNativeTarget "UberCloniOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4378218263C114600C1CDC1 /* Debug */,
+				B4378219263C114600C1CDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B43781F0263C114300C1CDC1 /* UberCloniOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B43781F1263C114300C1CDC1 /* UberCloniOS.xcdatamodel */,
+			);
+			currentVersion = B43781F1263C114300C1CDC1 /* UberCloniOS.xcdatamodel */;
+			path = UberCloniOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B43781DC263C114300C1CDC1 /* Project object */;
+}
